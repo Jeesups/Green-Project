@@ -7,6 +7,7 @@ body{
     --main-background-color: #96B826;
     --main-content-background-color:#54504f;
 }
+/*Navigation section*/
 #navigation{
     background-color: var(--main-background-color);
     color: var(--main-text-color);
@@ -30,16 +31,18 @@ body{
     color:var(--main-background-color);
     border-radius: 5px;
 }
-
+/*Main banner*/
 #main-banner img{
     width: 100%;
 }
+/*Pictures */
 #side-pictures{
     display:grid;
     grid-template-columns: auto auto auto;
     justify-content: space-around;
     background-color: #f4f4f4;
 }
+/*Main section*/
 article{
     display:grid;
     grid-template-columns: auto auto;
@@ -70,7 +73,7 @@ article #author{
     background-size: 100px;
     padding-left: 110px;
 }
-
+/*footer*/
 #main-footer{
     display:grid;
     grid-template-columns: auto auto auto auto;
